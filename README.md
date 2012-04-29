@@ -8,10 +8,12 @@ GoORM is an ORM for Go. It lets you map Go structs to tables in a database. It's
 ### How do we use it?
 
 Open a database
-  orm := goorm.NewORM("127.0.0.1", "3306", "test", "xiemengjun", "123456", "utf8")
+
+	orm := goorm.NewORM("127.0.0.1", "3306", "test", "xiemengjun", "123456", "utf8")
 
 Change Database
-  orm.SelectDb("test2")  
+
+	orm.SelectDb("test2")  
 
 Model a struct after a table in the db
 
