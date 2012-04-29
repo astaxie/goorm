@@ -1,6 +1,6 @@
 GoORM
 =====
-GoORM is an ORM for Go. It lets you map Go structs to tables in a database. It's intended to be very lightweight, doing very little beyond what you really want. For example, when fetching data, instead of re-inventing a query syntax, we just delegate your query to the underlying database, so you can write the "where" clause of your SQL statements directly. This allows you to have more flexibility while giving you a convenience layer. But GoRM also has some smart defaults, for those times when complex queries aren't necessary.
+GoORM is an ORM for Go. It lets you map Go structs to tables in a database. It's intended to be very lightweight, doing very little beyond what you really want. For example, when fetching data, instead of re-inventing a query syntax, we just delegate your query to the underlying database, so you can write the "where" clause of your SQL statements directly. This allows you to have more flexibility while giving you a convenience layer. But GoORM also has some smart defaults, for those times when complex queries aren't necessary.
 
 ### Installing GoORM
     go get github.com/astaxie/goorm
